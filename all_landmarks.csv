@@ -1,0 +1,61 @@
+LandmarkID,Name,Category,Tags,Location,PopularityScore
+1,Afghan Church,Religious Sites,Christian Church,"Colaba, Mumbai, India",8
+2,Antilia,Residential Building,Modern Architecture|Residential Building,"Altamount Road, Mumbai, India",9
+3,Babulnath Temple,Religious Sites,Hindu Temple,"Malabar Hill, Mumbai, India",7
+4,Bandra-Worli Sea Link,Infrastructure and Architecture,Bridge|Modern Architecture,"Bandra to Worli, Mumbai, India",10
+5,Banganga Tank,Natural and Recreational Sites,Natural Park|Garden,"Walkeshwar, Mumbai, India",6
+6,Bhau Daji Lad Museum,Cultural and Museum Sites,Museum|Cultural Heritage,"Byculla, Mumbai, India",7
+7,Bombay Art Society,Cultural and Museum Sites,Art Gallery|Cultural Heritage,"Bandra, Mumbai, India",5
+8,Bombay High Court,Infrastructure and Architecture,Colonial Era|Architecture,"Fort, Mumbai, India",8
+9,Bombay Stock Exchange (BSE),Commercial and Financial Institutions,Financial Institution|Stock Exchange,"Fort, Mumbai, India",9
+10,Chhatrapati Shivaji Maharaj Vastu Sangrahalaya,Cultural and Museum Sites,Museum|Cultural Heritage,"Fort, Mumbai, India",8
+11,David Sassoon Library and Reading Room,Cultural and Museum Sites,Library|Cultural Heritage,"Fort, Mumbai, India",7
+12,Eliphinstone College,Educational Institutions,University|Historical,"Fort, Mumbai, India",6
+13,Flora Fountain,Cultural and Museum Sites,Cultural Heritage|Colonial Era,"Fort, Mumbai, India",7
+14,Gateway of India,Historical Monuments,Historical|Colonial Era,"Colaba, Mumbai, India",10
+15,Ghodbunder Fort,Historical Monuments,Historical|Fort,"Thane, Mumbai, India",5
+16,Gilbert Hill,Natural and Recreational Sites,Natural Park|Recreational Area,"Andheri, Mumbai, India",4
+17,"Global Vipassana Pagoda, Gorai",Religious Sites,Hindu Temple|Religious,"Gorai, Mumbai, India",7
+18,"Gloria Church, Byculla",Religious Sites,Christian Church|Historical,"Byculla, Mumbai, India",5
+19,Grant Medical College - Byculla,Educational Institutions,Medical College|Historical,"Byculla, Mumbai, India",6
+20,"Haji Ali Dargah, Worli",Religious Sites,Islamic Mosque|Religious,"Worli, Mumbai, India",9
+21,Hanging Gardens,Natural and Recreational Sites,Garden|Recreational Area,"Malabar Hill, Mumbai, India",8
+22,Imperial Towers,Residential Building,Residential Building|Skyscraper,"Tardeo, Mumbai, India",9
+23,Indian Institute of Technology (IIT) Bombay - Powai,Educational Institutions,Engineering|University,"Powai, Mumbai, India",9
+24,"ISKCON Temple, Juhu",Religious Sites,Hindu Temple|Religious,"Juhu, Mumbai, India",8
+25,Jai Hind College - Churchgate,Educational Institutions,College|Educational,"Churchgate, Mumbai, India",6
+26,Jama_Masjid,Religious Sites,Islamic Mosque|Religious,"Crawford Market, Mumbai, India",7
+27,Jamnalal_Bajaj_Institute_of_Management_Studies_(JBIMS),Educational Institutions,Management|Educational,"Churchgate, Mumbai, India",7
+28,K. J. Somaiya College of Engineering - Vidyavihar,Educational Institutions,Engineering|College,"Vidyavihar, Mumbai, India",6
+29,Kanheri Caves,Natural and Recreational Sites,Cave|Historical,"Sanjay Gandhi National Park, Mumbai, India",8
+30,Khada Parsi Statue,Cultural and Museum Sites,Statue|Historical,"Byculla, Mumbai, India",5
+31,Lokmanya Tilak Terminus,Infrastructure and Architecture,Train Station|Infrastructure,"Kurla, Mumbai, India",7
+32,M.H. Saboo Siddik College of Engineering - Byculla,Educational Institutions,Engineering|College,"Byculla, Mumbai, India",6
+33,"Magen David Synagogue, Byculla",Religious Sites,Jewish Synagogue|Religious,"Byculla, Mumbai, India",6
+34,"Mahalakshmi Temple, Mahalaxmi",Religious Sites,Hindu Temple|Religious,"Mahalaxmi, Mumbai, India",9
+35,Mahalaxmi Racecourse,Natural and Recreational Sites,Recreational Area|Sports,"Mahalaxmi, Mumbai, India",7
+36,"Siddhivinayak Temple, Prabhadevi",Religious Sites,Hindu Temple|Religious,"Prabhadevi, Mumbai, India",10
+37,Sion Fort,Historical Monuments,Fort|Historical,"Sion, Mumbai, India",5
+38,Sir J.J. College of Architecture - Fort,Educational Institutions,Architecture|College,"Fort, Mumbai, India",7
+39,Sophia College for Women - Peddar Road,Educational Institutions,Women's College|Educational,"Peddar Road, Mumbai, India",6
+40,"St. Michael_s Church, Mahim",Religious Sites,Christian Church|Religious,"Mahim, Mumbai, India",7
+41,St. Thomas Cathedral,Religious Sites,Christian Church|Historical,"Fort, Mumbai, India",6
+42,St. Xavier_s College - Fort,Educational Institutions,College|Educational,"Fort, Mumbai, India",7
+43,Taj Lands End,Hospitality and Living Spaces,Hotel|Hospitality,"Bandra, Mumbai, India",8
+44,Taj Mahal Palace Hotel,Hospitality and Living Spaces,Hotel|Historical|Luxury,"Colaba, Mumbai, India",10
+45,Taraporewala Aquarium,Cultural and Museum Sites,Aquarium|Cultural,"Marine Drive, Mumbai, India",5
+46,Tata Institute of Social Sciences (TISS) - Deonar,Educational Institutions,Social Sciences|University,"Deonar, Mumbai, India",7
+47,"Teerthdham Mangalayatan, Vasai",Religious Sites,Hindu Temple|Religious,"Vasai, Mumbai, India",4
+48,The Asiatic Society of Mumbai,Cultural and Museum Sites,Library|Cultural Heritage,"Fort, Mumbai, India",8
+49,The Leela Mumbai,Hospitality and Living Spaces,Hotel|Hospitality,"Andheri, Mumbai, India",9
+50,"The Oberoi, Mumbai",Hospitality and Living Spaces,Hotel|Luxury,"Nariman Point, Mumbai, India",9
+51,"University of Mumbai - Kalina, Santacruz",Educational Institutions,University|Educational,"Kalina, Santacruz, Mumbai, India",7
+52,Vasai Fort,Historical Monuments,Fort|Historical,"Vasai, Mumbai, India",6
+53,Veermata Jijabai Technological Institute (VJTI) - Matunga,Educational Institutions,Engineering|College,"Matunga, Mumbai, India",8
+54,Victoria Terminus (Chhatrapati Shivaji Maharaj Terminus),Historical Monuments,Historical|Railway Station,"Fort, Mumbai, India",10
+55,Vivekanand Education Society_s Institute of Technology (VESIT) - Chembur,Educational Institutions,Engineering|College,"Chembur, Mumbai, India",6
+56,"Wadiaji Atash Behram, Grant Road",Religious Sites,Zoroastrian Temple|Religious,"Grant Road, Mumbai, India",5
+57,"Walkeshwar Temple, Walkeshwar",Religious Sites,Hindu Temple|Religious,"Walkeshwar, Mumbai, India",7
+58,Wilson College - Chowpatty,Educational Institutions,College|Educational,"Chowpatty, Mumbai, India",7
+59,Worli Fort,Historical Monuments,Fort|Historical,"Worli, Mumbai, India",5
+60,Worli Sea Face,Natural and Recreational Sites,Sea Face|Natural,"Worli, Mumbai, India",8

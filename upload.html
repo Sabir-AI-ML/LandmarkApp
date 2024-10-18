@@ -1,0 +1,158 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Classifier</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+        font-family: Arial, sans-serif;
+      }
+      .image-upload {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+        border: 2px dashed #000;
+        border-radius: 5px;
+        background-color: #fff;
+      }
+      .image-upload input {
+        display: none;
+      }
+      .classify-btn {
+        margin-top: 20px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+      }
+      .classify-btn:disabled {
+        background-color: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-upload">
+      <label for="fileInput">
+        <p>Click to upload an image</p>
+      </label>
+      <input type="file" id="fileInput" accept="image/*" />
+      <button class="classify-btn" id="classifyBtn" disabled>
+        Classify 🔍
+      </button>
+    </div>
+
+    <script>
+      document
+        .getElementById("fileInput")
+        .addEventListener("change", function () {
+          document.getElementById("classifyBtn").disabled = false;
+        });
+
+      document
+        .getElementById("classifyBtn")
+        .addEventListener("click", function () {
+          window.location.href = "/classify/";
+        });
+    </script>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Classifier</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #87ceeb; /* Sky blue background */
+        font-family: Arial, sans-serif;
+      }
+      .image-upload {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        height: 500px;
+        border: 2px dashed #000;
+        border-radius: 5%; /* Rounded corners */
+        background-color: #fff;
+        overflow: hidden; /* Ensure the image stays within the box */
+      }
+      .image-upload img {
+        width: 500px;
+        height: 400px;
+        object-fit: contain;
+      }
+      .image-upload input {
+        display: none;
+      }
+      .classify-btn {
+        margin-top: 20px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+      }
+      .classify-btn:disabled {
+        background-color: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-upload" id="imageUpload">
+      <label for="fileInput">
+        <p>Click to upload an image</p>
+      </label>
+      <input type="file" id="fileInput" accept="image/*" />
+      <button class="classify-btn" id="classifyBtn" disabled>
+        Classify 🔍
+      </button>
+    </div>
+
+    <script>
+      document
+        .getElementById("fileInput")
+        .addEventListener("change", function (e) {
+          var reader = new FileReader();
+          reader.onload = function (event) {
+            var imgElement = document.querySelector(".image-upload img");
+            if (imgElement) {
+              imgElement.remove(); // Remove the previous image if it exists
+            }
+            var img = document.createElement("img");
+            img.src = event.target.result;
+            document.getElementById("imageUpload").appendChild(img);
+          };
+          reader.readAsDataURL(e.target.files[0]);
+          document.getElementById("classifyBtn").disabled = false;
+        });
+
+      document
+        .getElementById("classifyBtn")
+        .addEventListener("click", function () {
+          window.location.href = "/classify/";
+        });
+    </script>
+  </body>
+</html>
